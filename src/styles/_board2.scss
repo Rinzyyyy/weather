@@ -1,0 +1,18 @@
+.board2 {
+  position: relative;
+  cursor: pointer;
+  max-width: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  table {
+    text-align: center;
+    font-size: 1rem;
+    img {
+      max-width: 10vw;
+    }
+  }
+  &:hover {
+    background-color: rgba(128, 132, 132, 0.3);
+  }
+}

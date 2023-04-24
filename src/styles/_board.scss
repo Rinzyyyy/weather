@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 43vh;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+
+  h3 {
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+    text-align: center;
+    border-right: 0.08rem solid black;
+    border-left: 0.08rem solid black;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+  }
+  th,
+  td {
+    padding: 1rem 2rem;
+  }
+}

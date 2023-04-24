@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div {
+  width: 100vw;
+}
+
+nav {
+  background-color: rgb(235, 231, 231);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  padding: 0 2%;
+}
+nav a {
+  color: rgb(128, 124, 124);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav a:hover {
+  color: black;
+}
+nav p {
+  color: rgb(128, 124, 124);
+  font-size: 0.8rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(204, 200, 200, 0.9);
+  height: 89vh;
+}
+.home .boards {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.load {
+  text-align: center;
+  padding: 20%;
+}
+
+.foot {
+  background-color: rgba(235, 231, 231, 0.9);
+  height: 6vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot p {
+  font-size: 0.8rem;
+  color: rgb(87, 86, 86);
+  line-height: 1rem;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 43vh;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+.board h3 {
+  padding: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.board table,
+.board tr,
+.board th,
+.board td {
+  text-align: center;
+  border-right: 0.08rem solid black;
+  border-left: 0.08rem solid black;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+.board th,
+.board td {
+  padding: 1rem 2rem;
+}
+
+.board2 {
+  position: relative;
+  cursor: pointer;
+  max-width: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.board2 table {
+  text-align: center;
+  font-size: 1rem;
+}
+.board2 table img {
+  max-width: 10vw;
+}
+.board2:hover {
+  background-color: rgba(128, 132, 132, 0.3);
+}
+
+.inputStyle {
+  display: flex;
+  justify-content: center;
+  margin: 0rem 0rem 2.5rem 0;
+  height: 3vh;
+  text-align: center;
+}
+.inputStyle input {
+  border: none;
+  background-color: rgb(235, 231, 231);
+  text-align: center;
+  width: 16rem;
+  height: 3.5rem;
+  font-size: 2rem;
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+}
+
+.other {
+  width: 85vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.load {
+  height: 89vh;
+  background-color: rgba(0, 0, 0, 0.776);
+  color: white;
+  font-size: 1.5rem;
+}
+
+.manual {
+  padding: 1rem 2rem 2rem 2rem;
+  width: 100vw;
+  background-color: rgb(223, 222, 219);
+}
+.manual section {
+  display: flex;
+  width: 96vw;
+  align-items: center;
+  border-bottom: 0.05rem solid gray;
+  padding: 2rem 0 2rem 0;
+}
+.manual section img {
+  width: 48vw;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+.manual section p {
+  width: 48vw;
+  padding: 3rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.03rem;
+}
+.manual section span {
+  font-size: 1.9rem;
+  border: 0.05rem solid gray;
+  padding: 0.8rem;
+  border-radius: 30%;
+  text-shadow: 0 1px 1px rgba(70, 69, 69, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
