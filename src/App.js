@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout option={option} auther={auther} />}>
           <Route
-            index
+            path="/weather"
             element={<Home setImg={setImg} setAuther={setAuther} />}
           ></Route>
           <Route path="manual" element={<Manual />}></Route>
