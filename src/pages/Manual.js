@@ -22,15 +22,16 @@ const Manual = () => {
 
       <section>
         <p>
-          <span>Wheather data</span>
+          <span>Weather data</span>
           <br />
           <br />
           Click on the weather for other times below. <br />
           The detailed forecast will be displayed in the middle board,
           <br />
-          and the "arrow" can be used to browse the weather forecast. <br />
-          The data is forecasted for a period of five days in three-hour
-          intervals.The time is local time zone
+          and the "arrow" can be used to browse the weather forecast, <br />
+          which is forecasted for a period of five days in three-hour intervals.
+          <br />
+          Time is based on the local time zone.
         </p>
         <img src={selectimg} alt="search" />
       </section>
