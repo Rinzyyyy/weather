@@ -7,7 +7,7 @@ import Board2 from "../components/board2";
 import Input from "../components/Input";
 
 const Home = ({ setImg, setAuther }) => {
-  const auth = "f319866566541c21f40aa13f975094f0";
+  const auth = process.env.REACT_APP_WEATHER_API_KEY;
   let [Data, setData] = useState("");
   let [input, setInput] = useState("London");
   let [isSun, setIsSun] = useState(true);
@@ -19,7 +19,7 @@ const Home = ({ setImg, setAuther }) => {
   let call = `https://api.openweathermap.org/data/2.5/${type}?q=${input}&appid=${auth}`;
   //background image
   let imgURL = `https://api.pexels.com/v1/search?query=${input}&per_page=15&page=1`;
-  const client = "ONH6HczDNHpXLap1LHBVsO2pd0BUHU7R2tBHXsiqIng9rZC17zUTeYFF";
+  const client = process.env.REACT_APP_PIC_API_KEY;
 
   const search = async (url) => {
     try {
